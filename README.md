@@ -36,13 +36,13 @@
 
 可以通过设置环境变量 `CONFIG` 来指定配置文件路径
 
-例如: `CONFIG=./config.js tailhook`
+例如: `CONFIG=/etc/tailhook.config.js /usr/local/bin/tailhook-linux-x64`
 
 参考配置文件: [examples](./examples)
 
 ## 一个 systemd 管理的例子
 
-1. 下载 `tailhook-linux-arm64` 到 `/usr/local/bin/tailhook`
+1. 从 [Releases](./releases) 下载对应系统平台的文件, 例如 arm64 linux 的 `tailhook-linux-arm64` 到 `/usr/local/bin/tailhook`
 
 2. 给权限 `chmod +x /usr/local/bin/tailhook`
 
