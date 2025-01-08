@@ -1,0 +1,17 @@
+{
+  "name": "tailhook",
+  "module": "index.js",
+  "type": "module",
+  "version": "1.0.0",
+  "author": "xream",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "nodemon --exec bun run index.js",
+    "bundle": "bun build index.js --compile --outfile tailhook"
+  },
+  "dependencies": {
+    "signale": "^1.4.0",
+    "tail": "^2.2.6"
+  }
+}
