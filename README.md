@@ -26,7 +26,7 @@
 
 已打包为可执行文件
 
-[Releases](./releases)
+[Releases](https://github.com/xream/tailhook/releases)
 
 ## 配置文件
 
@@ -38,15 +38,15 @@
 
 例如: `CONFIG=/etc/tailhook.config.js /usr/local/bin/tailhook-linux-x64`
 
-参考配置文件: [examples](./examples)
+可参考这些配置文件 [examples](./examples)
 
 ## 一个 systemd 管理的例子
 
-1. 从 [Releases](./releases) 下载对应系统平台的文件, 例如 arm64 linux 的 `tailhook-linux-arm64` 到 `/usr/local/bin/tailhook`
+1. 从 [Releases](https://github.com/xream/tailhook/releases) 下载对应系统平台的文件, 例如 arm64 linux 的 `tailhook-linux-arm64` 到 `/usr/local/bin/tailhook`
 
 2. 给权限 `chmod +x /usr/local/bin/tailhook`
 
-3. 创建配置文件 `/etc/tailhook.config.js`
+3. 创建配置文件 `/etc/tailhook.config.js` 可参考这些配置文件 [examples](./examples)
 
 4. 创建 systemd 服务文件 `/etc/systemd/system/tailhook.service`
 
