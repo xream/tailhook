@@ -36,8 +36,8 @@ jobs:
       - id: tag
         name: Generate release tag
         run: |
-          HTTP_META_RELEASE=`node --eval="process.stdout.write(require('./package.json').version)"`
-          echo "release_tag=$HTTP_META_RELEASE" >> $GITHUB_OUTPUT
+          TAILHOOK_VERSION=`node --eval="process.stdout.write(require('./package.json').version)"`
+          echo "release_tag=$TAILHOOK_VERSION" >> $GITHUB_OUTPUT
       - name: Prepare release
         run: |
           bunx conventional-changelog-cli -p cli -i CHANGELOG.md -s
