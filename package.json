@@ -2,7 +2,7 @@
   "name": "tailhook",
   "module": "index.js",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xream",
   "license": "GPL-3.0",
   "scripts": {
